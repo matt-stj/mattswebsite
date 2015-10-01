@@ -1,3 +1,28 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.jumbotron {
+  background-image: image-url('header.png');
+  margin-top: -2rem;
+	padding-bottom: 10em !important;
+	padding-top: 10em !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.scrim {
+		line-height: 5rem !important;
+		margin-top: 5em;
+		margin-bottom: 2em;
+		padding-left: .1em;
+		padding-right: .1em;
+        text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+      color: white !important;
+      background: transparent\9;
+background:rgba(0,0,0,0.2);
+border-radius: 5px;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+box-shadow: 0px 5rem 4rem rgba(0,0,0,0.2), 0px -5rem 4rem rgba(0,0,0,0.2);
+}

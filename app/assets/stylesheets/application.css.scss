@@ -30,3 +30,66 @@
 .form-model {
   max-width: 750px;
 }
+
+// Colors
+
+.green-bg {
+  background-color: #ADC18D;
+}
+
+.lightest-blue-bg {
+  background-color: #96BCD8;
+}
+
+.medium-blue-bg {
+  background-color: #0C5B8A;
+}
+
+.med-flat-blue {
+  background-color: #0C5B8A;
+}
+
+.dark-blue-bg {
+  background-color: #0C5B8A;
+}
+// Fonts
+
+.main-font {
+  font-family: Oxygen;
+}
+
+.light-weight {
+  font-weight: 300;
+}
+
+.med-weight {
+  font-weight: 400;
+
+}
+
+.heavy-weight {
+  font-weight: 700;
+
+}
+// Font colors
+
+.light-txt {
+   color: #FFF;
+}
+
+.dark-txt {
+  color: #464646;
+}
+
+// layout
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+// buttons
+
+.clear {
+  background-color: rgba(0, 0, 0, 0);
+}
