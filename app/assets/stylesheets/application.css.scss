@@ -33,6 +33,14 @@
 
 // Colors
 
+.white-bg {
+  background-color: #FFF;
+}
+
+.grey-bg {
+  background-color: #fafafa;
+}
+
 .green-bg {
   background-color: #ADC18D;
 }
@@ -53,6 +61,31 @@
   background-color: #0C5B8A;
 }
 // Fonts
+
+p {
+  font-size: 1.8rem;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 6rem;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+}
+
+h4 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
 
 .main-font {
   font-family: Oxygen;
@@ -81,6 +114,26 @@
   color: #464646;
 }
 
+.green-txt {
+  color: #ADC18D;
+}
+
+.lightest-blue-txt {
+  color: #96BCD8;
+}
+
+.medium-blue-txt {
+  color: #0C5B8A;
+}
+
+.med-flat-blue-txt {
+  color: #0C5B8A;
+}
+
+.dark-blue-txt {
+  color: #0C5B8A;
+}
+
 // layout
 
 .center {
@@ -88,8 +141,40 @@
   text-align: center;
 }
 
+.push-right {
+  padding-left: 6rem;
+}
+
+.push-left {
+  padding-right: 6rem;
+}
+
+.contain {
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.float-left {
+  float: left;
+  text-align: left;
+}
+
+.float-right {
+  float: right;
+  text-align: right;
+}
 // buttons
 
 .clear {
   background-color: rgba(0, 0, 0, 0);
+}
+
+// panes
+
+.pane {
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
