@@ -104,6 +104,10 @@ h4 {
   font-weight: 700;
 
 }
+
+.alt-font {
+  font-family: 'Shadows Into Light', cursive;
+}
 // Font colors
 
 .light-txt {
@@ -177,4 +181,12 @@ h4 {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+// images
+
+.pane-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
 }
