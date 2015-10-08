@@ -12,16 +12,27 @@
 <div class="pane">
   <a name="about"></a>
   <div class="contain">
-    <h1 class="green-txt">My Story</h1>
-    <h4 class="light-weight">A little background...</h4>
-    <p class="light-weight">
-      After graduating college, I spent my time working in fields that I found to be meaningful.
-      Along the way, I touched many different industries - from helping companies implement sustainability strategies, to teaching English overseas, to working on the product team of an early stage startup.
-      Today, I’m learning full stack web development at the Turing School of Software and Design to expand the ways in which I can help startup product teams.
-    </p>
-  </div>
+    <div class="row-fluid">
+        <div class="span4">
+          <h1 class="green-txt btm-pding">My Story</h1>
+          <div class="float-left">
+            <%= link_to(image_tag("matt.jpeg", :alt => "logo", :title => "Home", :class=>"responsive small-img", :style=>"margin-right: 50px;"), "#purchase") %>
+          </div>
+        </div>
+      <div class="span8">
+        <h3 class="light-weight">Adventurer.    Tech Geek.    Explorer  </h3>
+        <p class="light-weight">
+          After graduating college, I spent my time working in fields that I found to be meaningful.  Along the way, I touched many different industries - from helping companies implement sustainability strategies, to teaching English overseas, to working on the product team of an early stage startup.  Today, I’m learning full stack web development at the Turing School of Software and Design to expand the ways in which I can help startup product teams.
+        </p>
+      </div>
+    </div>
 </div>
 
+
+
+
+
+</div>
 
 <div class="pane white-bg float-right">
   <a name="work"></a>
@@ -51,10 +62,10 @@
   </div>
 </div>
 
-<div class="footer">
+<!-- <div class="footer">
   <div class="contain">
     <div class="center">
       <p>social media shit goes here</p>
     </div>
   </div>
-</div>
+</div> -->
