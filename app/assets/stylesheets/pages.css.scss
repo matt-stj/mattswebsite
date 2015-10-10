@@ -84,11 +84,29 @@ box-shadow: 0px 5rem 4rem rgba(0,0,0,0.1), 0px -5rem 4rem rgba(0,0,0,0.1);
   display: inline-block;
 }
 
+.small-img:hover {
+  height: 180px;
+  width: 180px;
+  border-radius: 180px;
+  display: inline-block;
+  background-color: #96BCD8;
+  transition: background-color 0.4s;
+}
+
 .contact-img {
   height: 120px;
   width: 120px;
   border-radius: 120px;
   display: inline-block;
+}
+
+.contact-img:hover {
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
+  display: inline-block;
+  background-color: #ADC18D;
+  transition: background-color 0.4s;
 }
 
 .left-image {
